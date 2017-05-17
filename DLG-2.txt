@@ -1,0 +1,7 @@
+service besclient stop ; cp /tmp/besclient.config /var/opt/BESClient/ ; service besclient start
+Sep 26 09:04:14 mg5csrs10p kernel: Uhhuh. NMI received for unknown reason e0.
+Sep 26 09:04:14 mg5csrs10p kernel: You probably have a hardware problem with your RAM chips
+Sep 26 09:04:14 mg5csrs10p kernel: Dazed and confused, but trying to continue
+Sep 26 09:04:14 mg5csrs10p kernel: NMI: IOCK error (debug interrupt?)
+Sep 26 09:04:14 mg5csrs10p kernel: CPU 0
+Sep 26 09:04:14 mg5csrs10p kernel: Modules linked in: talpa_vfshook(U) talpa_pedconnector(U) talpa_pedevice(U) talpa_vcdevice(U) talpa_core(U) talpa_linux(U) talpa_syscallhook(U) vxodm(PFU) vxgms(PU) amf(PU) vxglm(PU) vxfen(PU) gab(PU) llt(PU) autofs4 hidp rfcomm l2cap bluetooth dmpaa(PU) vxspec(PU) vxio(PU) vxdmp(PU) lockd sunrpc bonding be2iscsi ib_iser rdma_cm ib_cm iw_cm ib_sa ib_mad ib_core ib_addr iscsi_tcp bnx2i cnic ipv6 xfrm_nalgo crypto_api uio cxgb3i libcxgbi cxgb3 libiscsi_tcp libiscsi2 scsi_transport_iscsi2 scsi_transport_iscsi vxcafs(PU) vxportal(PU) fdd(PU) vxfs(PU) exportfs xfs dm_multipath scsi_dh video backlight sbs power_meter hwmon i2c_ec i2c_core dell_wmi wmi button battery asus_acpi acpi_memhotplug ac parport_pc lp parport joydev sr_mod cdrom sg qlcnic pcspkr tpm_tis serio_raw tg3 shpchp hpilo 8021q tpm tpm_bios dm_raid45 dm_message dm_region_hash dm_mem_cache dm_snapshot dm_zero dm_mirror dm_log dm_mod usb_storage qla2xxx scsi_transport_fc ata_piix libata cciss sd_mod scsi_mod ext3 jbd uhci_hc
